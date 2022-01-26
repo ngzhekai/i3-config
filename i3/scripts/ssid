@@ -30,7 +30,11 @@ fi
 
 #------------------------------------------------------------------------
 
-SSID=$(iw "$INTERFACE" info | awk '/ssid/ {$1=""; print $0}')
+#SSID=$(iw "$INTERFACE" info | awk '/ssid/ {$1=""; print $0}')
+SSID1=$(iw "$INTERFACE" info | awk '/ssid/ {$1=""; print $0'})
+SSID2=$(ip route get 8.8.8.8 | sed -nr 's/.*src ([0-9.]+).*/\1/p' | awk '{ print "(" $1 ")"}')
+
+SSID="$SSID1 $SSID2"
 
 #------------------------------------------------------------------------
 
