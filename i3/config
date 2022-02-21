@@ -176,6 +176,7 @@ bindcode $mod+Shift+90 	 move container to workspace  $ws10
 
 # start a terminal
 bindsym $mod+Return exec xfce4-terminal
+#bindsym $mod+Return exec cool-retro-term
 
 # kill focused window
 bindsym $mod+q kill
@@ -348,7 +349,7 @@ set $ws10 "10:"
 assign [class="Xfce4-terminal"] $ws1
 assign [class="(?i)firefox"] $ws2
 #assign [class="Thunar"] $ws3
-assign [class="Google-chrome"] $ws3
+#assign [class="Google-chrome"] $ws3
 assign [class="code-oss"] $ws4
 assign [class="Steam"] $ws10
 assign [class="discord"] $ws9
@@ -356,10 +357,9 @@ assign [class="discord"] $ws9
 
 # automatic set focus new window if it opens on another workspace then the current:
 for_window [class=Xfce4-terminal] focus
-for_window [class=(?i)firefox] focus
-for_window [class=Thunar] focus
-for_window [class=Google-chrome] focus
-for_window [class=code-oss] focus
+#for_window [class=(?i)firefox] focus
+#for_window [class=Thunar] focus
+#for_window [class=Google-chrome] focus
 for_window [class=Steam] focus
 for_window [class=discord] focus
 
@@ -385,9 +385,6 @@ exec --no-startup-id dex --autostart --environment i3
 #exec --no-startup-id numlockx on
 # configure multiple keyboard layouts and hotkey to switch (Alt+CAPSLOCK in this example)
 #exec --no-startup-id setxkbmap -layout 'us,sk' -variant altgr-intl,qwerty -option 'grp:alt_caps_toggle'
-
-# start picom (transparent window)
-exec --no-startup-id picom -b
 
 # start conky:
 #exec_always --no-startup-id conky
@@ -418,7 +415,7 @@ exec --no-startup-id nm-applet
 exec --no-startup-id nitrogen --restore
 #exec --no-startup-id feh --bg-fill /usr/share/endeavouros/backgrounds/endeavouros_i3.png
 #exec --no-startup-id watch -n 1200 feh -randomize -bg-fill ~/Pictures/bg/*
-#exec --no-startup-id feh --bg-fill /home/zhekai/Piectures/bg/bg1.png
+#exec --no-startup-id feh --bg-fill /home/zhekai/Pictures/bg/bg1.png
 
 
 
@@ -453,7 +450,8 @@ for_window [class="Pamac-manager"] floating enable
 for_window [class="Thunar"] floating enable
 for_window [class="Gthumb"] floating enable
 for_window [class="System-config-printer.py"] floating enable
-for_window [class="PacketTracer"] floating enable
+for_window [class="Xed"] floating enable
+#for_window [class="code-oss"] floating enable
 
 ######################################
 # color settings for bar and windows #
