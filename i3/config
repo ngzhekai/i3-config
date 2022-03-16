@@ -406,7 +406,7 @@ exec --no-startup-id blueberry-tray
 #exec --no-startup-id xcompmgr -c -C -t-5 -l-5 -r4.2 -o.55 &
 # or:
 # picom: https://wiki.archlinux.org/title/Picom
-#exec --no-startup-id picom -CGb
+exec --no-startup-id picom -CGb
 
 # networkmanager-applet
 exec --no-startup-id nm-applet
@@ -452,6 +452,8 @@ for_window [class="Gthumb"] floating enable
 for_window [class="System-config-printer.py"] floating enable
 for_window [class="Xed"] floating enable
 #for_window [class="code-oss"] floating enable
+for_window [class="Blueman-manager"] floating enable
+for_window [class="Protonvpn"] floating enable
 
 ######################################
 # color settings for bar and windows #
