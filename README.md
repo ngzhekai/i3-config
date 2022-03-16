@@ -3,12 +3,18 @@ Backup for custom i3-WM configuration files (customized from EndeavourOS i3-WM).
 
 #### This repository serve as a backup for my i3-WM Configuration Dot file.
 
-![i3blocks-config-sample1.png](https://user-images.githubusercontent.com/61905056/151100581-44cc66d7-c24f-4ec8-b9cc-d812e1c8d98e.png)
+![i3blocks-config-sample1.png](https://user-images.githubusercontent.com/61905056/158498929-cc92f0a2-10af-4893-81eb-74a3535c039a.png)
 > This is a Screenshot of the i3blocks Status Bar.
 
-![i3blocks-config-sample2.png](https://user-images.githubusercontent.com/61905056/154886370-fb1eaf72-dee1-4c58-995a-a2fea43d7cbf.png)
+
+
+![i3blocks-config-sample2.png](https://user-images.githubusercontent.com/61905056/158499110-b9216375-cf19-49c6-995c-2ad6c38a29ff.png)
 > This is a another Screenshot of the i3blocks Status Bar.
 
+
+
+![i3blocks-config-sample3.png](https://user-images.githubusercontent.com/61905056/154886370-fb1eaf72-dee1-4c58-995a-a2fea43d7cbf.png)
+> This is a another Screenshot of the i3blocks Status Bar.
 
 
 
