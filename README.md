@@ -3,20 +3,24 @@ Backup for custom i3-WM configuration files (customized from EndeavourOS i3-WM).
 
 #### This repository serve as a backup for my i3-WM Configuration Dot file.
 
-![i3blocks-config-sample1.png](https://user-images.githubusercontent.com/61905056/158498929-cc92f0a2-10af-4893-81eb-74a3535c039a.png)
+<details><summary>Screenshots</summary>
+<p>
+  
+![i3blocks-config-sample1.png](https://user-images.githubusercontent.com/61905056/163004575-c0ce4050-006c-49b4-bec5-263c4b3d8333.png)
 > This is a Screenshot of the i3blocks Status Bar.
 
 
-
-![i3blocks-config-sample2.png](https://user-images.githubusercontent.com/61905056/158499110-b9216375-cf19-49c6-995c-2ad6c38a29ff.png)
+![i3blocks-config-sample2.png](https://user-images.githubusercontent.com/61905056/163004390-3ce8d9c0-582f-4a4f-99f4-fe7438f2bb83.png)
 > This is a another Screenshot of the i3blocks Status Bar.
 
 
-
-![i3blocks-config-sample3.png](https://user-images.githubusercontent.com/61905056/154886370-fb1eaf72-dee1-4c58-995a-a2fea43d7cbf.png)
+![i3blocks-config-sample3.png](https://user-images.githubusercontent.com/61905056/163004235-831a8b65-b1ff-4f17-b63b-19afbd37000b.png)
 > This is a another Screenshot of the i3blocks Status Bar.
 
-
+  If you are interested in the wallpaper shown in the screenshots, Visit <a href="https://github.com/ngzhekai/bgWallpapers"> this repository</a>.
+  
+</p>
+</details>
 
 
 ### Note: Please try to understand the dot file before applying on your i3-WM!
@@ -34,7 +38,9 @@ Backup for custom i3-WM configuration files (customized from EndeavourOS i3-WM).
 | Switching the location of windows in a workspace | `Super + Shift + {,,,}` |
 |||
 | Capture entire screen | `Prtsc` |
+| Capture active window | `Super + Prtsc` |
 | Capture selected area | `Shift + Prtsc` |
+| Capture selected area and copy to clipboard ONLY | `Super + Shift + Prtsc` |
 |||
 | Looping wallpapers from a directory | `Super + Shift + P` |
 |||
