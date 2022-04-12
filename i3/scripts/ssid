@@ -40,4 +40,5 @@ SSID="$SSID1 $SSID2"
 
 echo "$SSID" # full text
 echo "$SSID" # short text
-echo "#90dbf4" # color
+#echo "#90dbf4" # color
+#echo "#FFFFFF" # color
