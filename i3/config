@@ -455,6 +455,7 @@ for_window [class="Xed"] floating enable
 #for_window [class="code-oss"] floating enable
 for_window [class="Blueman-manager"] floating enable
 for_window [class="Protonvpn"] floating enable
+for_window [class="Virt-manager"] floating enable
 #for_window [class="discord"] floating enable
 
 ######################################
